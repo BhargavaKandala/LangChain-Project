@@ -1,13 +1,37 @@
-# Ignore virtual environments
+# ==========================
+# Python project .gitignore
+# ==========================
+
+# Virtual environments
 .venv/
 venv/
 env/
 
-# Python caches
+# Python bytecode/cache
 __pycache__/
-*.pyc
+*.py[cod]
 *.pyo
 *.pyd
 
-# Node modules (if any)
-node_modules/
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Logs and misc
+*.log
+*.cache
+*.tmp
+*.pid
+*.seed
+
+# IDE and editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS-specific files
+.DS_Store
+Thumbs.db
